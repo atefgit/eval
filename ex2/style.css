@@ -1,0 +1,147 @@
+/* S_1 */
+.box {
+    }
+
+/* S_2 */
+.box > :first-child {
+}
+
+/* S_3 */
+#list {
+
+}
+
+/* S_4 */
+#list:last-child{
+
+}
+
+/* S_5 */
+body > p {
+
+}
+
+/* S_6 */
+a[href^="https"] {
+
+}
+
+/* S_7 */
+a[href$=".com"] {
+
+}
+
+/* S_8 */
+a[href*="exemple"] {
+
+}
+
+/* S_9 */
+table > td {
+
+}
+
+/* S_10 */
+table tr:first-child > td {
+
+}
+
+/* S_11 */
+td + th {
+
+}
+
+/* S_12 */
+th + td {
+
+}
+
+/* S_13 */
+#container > div {
+
+}
+
+/* S_14 */
+#container > div .box {
+
+}
+
+/* S_15 */
+#container > div .box:not(:first-child) {
+
+}
+
+/* S_16 */
+#container > div .box:not(:first-child):not(:first-child) {
+
+}
+
+/* S_17 */
+#container > div .box:not(:first-child):not(:first-child):not(:first-child) {
+
+}
+
+/* S_18 */
+#container > div.box:not(:nth-child(-n + 4)) {
+
+}
+
+/* S_19 */
+#container > div .box:not(:nth-child(-n + 5)) {
+
+}
+
+/* S_20 */
+#container > div .box:not(:nth-child(-n + 6)) {
+
+}
+
+/* S_21 */
+#container > div .box:not(:nth-child(-n + 7)) {
+
+}
+
+/* S_22 */
+#container > div .box:not(:nth-child(-n + 8)) {
+
+}
+
+/* S_23 */
+#container > div .box:not(:nth-child(-n + 9)) {
+
+}
+
+/* S_24 */
+#container > div .box:not(:nth-child(-n + 10)) {
+
+}
+
+/* S_25 */
+#container > div .box:not(:nth-last-child(-n + 5)) {
+
+}
+
+/* S_26 */
+#container > div .box:not(:nth-last-child(-n + 4)) {
+
+}
+
+/* S_27 */
+#container > div .box:not(:nth-last-child(-n + 3)) {
+
+}
+
+/* S_28 */
+#container > div .box:not(:nth-last-child(-n + 2)) {
+
+}
+
+/* S_29 */
+#container > div .box:not(:nth-last-child(-n + 1)) {
+
+}
+
+/* S_30 */
+#container > div .box:not(:nth-last-child(-n + 2)).box:not(:first-child) {
+
+}

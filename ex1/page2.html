@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            margin: 0px;
+            padding: 0;
+            
+
+        }
+        div {
+            
+            background-color: rgb(234, 215, 184);
+            
+            
+        }
+
+        .wrapper {
+
+            display: grid;
+            grid-template-columns: 394px 394px;
+            grid-template-rows: 558px 195px 349px;
+            gap: 0px;
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+  
+        }
+        img {
+            border: 5px solid;
+            border-color: rgb(250, 248, 248);
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+
+        .one {
+            grid-column: 1 / 3;
+            grid-row: 1 / 2;
+        }
+
+        .two {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
+        .three {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        .four {
+            grid-column: 1 / 3;
+            grid-row: 3 / 3;
+        }
+
+       
+       
+    </style>
+
+    <div class="wrapper">
+        <div class="one"><img src="img/page02_img01_800x558.jpg" alt="image1"></div>
+        <div class="two"><img src="img/page02_img02_394x195.jpg" alt="image2"></div>
+        <div class="three"><img src="img/page02_img03_394x195.jpg" alt="image3"></div>
+        <div class="four"><img src="img/page02_img04_800x349.jpg" alt="image4"></div> 
+    </div>
+
+</body>
+</html>
